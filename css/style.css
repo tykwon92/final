@@ -1,0 +1,479 @@
+
+ body {
+    line-height: 1;
+    }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+
+body {
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+    padding: 20px; 
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+    bottom: 20px;
+    right: 15px;
+}
+
+.navigation a {
+    color: #191919;
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+.navigation a:hover, .navigation a.active {
+    color: #999999;
+}
+.navicon{
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
+ body{
+    margin:0px;
+    padding:0px;
+}
+main{
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: x mandatory;
+    /* overflow: hidden; */
+}
+section{
+    height:100vh;
+    width:100vw;
+    background-color: beige;
+    position: relative;
+    display:flex;
+    scroll-snap-align:  center;
+    color: black;
+    z-index: -1;
+}
+section:nth-of-type(even) {
+    background-color: #000;
+    color: beige;
+}
+h1{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 300px;
+    letter-spacing: 15px;
+    justify-content: center;
+    
+}
+h2{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 70px;
+    line-height: 10px;
+}
+h3{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 85px;
+}
+
+p{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 25px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title{
+    color: beige;
+    position: absolute;
+    top: -200px;
+}
+.subtitle{
+    position: absolute;
+    top: -85px;
+    right:0px;
+
+
+}
+
+
+/* circle */
+
+.circle1{
+    position: absolute;
+    top: 20px;
+    left: 485px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.circle2{
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.circle3{
+    position: absolute;
+    top: 270px;
+    left: 485px;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.circle4{
+    position: absolute;
+    top: 480px;
+    left: 590px;
+    background-color: skyblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.circle5{
+    position: absolute;
+    top: 580px;
+    left: 550px;
+    background-color: rgb(0, 0, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.circle6{
+    position: absolute;
+    top: 400px;
+    left: 840px;
+    background-color: rgb(195, 205, 50);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+.circle7{
+    position: absolute;
+    bottom: 10px;
+    left: 780px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.circle8{
+    position: absolute;
+    top: 40px;
+    left: 750px;
+    background-color: greenyellow;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+.circle9{
+    position: absolute;
+    top: 60px;
+    left: 990px;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.circle10{
+    position: absolute;
+    top: 380px;
+    left: 750px;
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.circle11{
+    position: absolute;
+    top: 430px;
+    left: 1310px;
+    background-color: skyblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+
+/* line */
+.line1{
+    position: absolute;
+    top: 75px;
+    left: -30px;
+    background-color: black;
+    height: 30px;
+    width: 680px;
+    border-radius: 30px;
+
+}
+.line2{
+    position: absolute;
+    top: 230px;
+    left: 340px;
+    background-color: black;
+    height: 30px;
+    width: 345px;
+    border-radius: 30px;
+
+}
+
+/* 니은 */
+.line3{
+    position: absolute;
+    top: 290px;
+    left: 370px;
+    background-color: black;
+    height: 80px;
+    width: 30px;
+    border-radius: 30px;
+
+}
+.line4{
+    position: absolute;
+    top: 340px;
+    left: 370px;
+    background-color: black;
+    height: 30px;
+    width: 280px;
+    border-radius: 30px;
+
+}
+/*   */
+
+.line5{
+    position: absolute;
+    top: -15px;
+    left: 1025px;
+    background-color: black;
+    height: 280px;
+    width: 30px;
+    border-radius: 30px;
+
+}
+
+/* ㄴ */
+.line6{
+    position: absolute;
+    top: 290px;
+    left: 780px;
+    background-color: black;
+    height: 80px;
+    width: 30px;
+    border-radius: 30px;
+  
+}
+.line7{
+    position: absolute;
+    top: 340px;
+    left: 780px;
+    background-color: black;
+    height: 30px;
+    width: 280px;
+    border-radius: 30px;
+
+}
+/*    */
+
+/* ㅈ */
+.line8{
+    position: absolute;
+    top: 440px;
+    left: 380px;
+    background-color: black;
+    height: 30px;
+    width: 180px;
+    border-radius: 30px;
+
+}
+
+.line9{
+    position: absolute;
+    top: 480px;
+    left: 460px;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    transform: rotate(60deg);
+    border-radius: 30px;
+
+}
+.line10{
+    position: absolute;
+    top: 480px;
+    left: 380px;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    transform: rotate(-60deg);
+    border-radius: 30px;
+
+}
+/*    */
+.line11{
+    position: relative;
+    top: 400px;
+    left: 650px;
+    background-color: black;
+    height: 200px;
+    width: 30px;
+    border-radius: 30px;
+
+}
+.line12{
+    position: absolute;
+    top: 530px;
+    left: 770px;
+    background-color: black;
+    height: 30px;
+    width: 690px;
+    border-radius: 30px;
+
+}
+
+/* rectangle */
+.mieum1{
+    position: absolute;
+    height: 170px;
+    width: 180px;
+    border: 30px;
+    background-color: green;
+    top: 70px;
+    left: 780px;
+}
+.mieum2{
+    position: absolute;
+    height: 80px;
+    width: 180px;
+    border: 30px;
+    background-color: purple;
+    top: 590px;
+    left: 810px;
+}
+
+.container1{
+    position: fixed;
+    z-index: 0;
+}
+.bg1{
+    background: url('/img/hunmin.png');
+    background-size: 100%;
+    z-index: 2;
+
+}
+.vcontainer{
+    height: 100%;
+    width:100%;
+    overflow-y: auto;
+}
+.hcontainer{
+    height: 100%;
+    width:300%;
+    overflow-x: auto;
+}
+.vpage{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    left: 50px;
+
+
+}
+.vpage img{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    box-shadow: grey 15px 15px 15px;
+}
+.hpage{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+.hpage img{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    box-shadow: grey 15px 15px 15px;
+}
+
+.pg{
+    padding: 40px;
+    margin: 40px;
+    min-width: 30%;
+    max-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.vpg{
+    padding: 40px;
+    margin: 40px;
+    min-width: 50%;
+    max-height: 100vh;
+}
+.vpg:nth-of-type(even){
+    right: 20px;
+}
+.paragraph{
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+
+.video1{
+    position: relative;
+    height:100vh;
+    width: 100vw;
+    z-index: 3;
+}
+::-webkit-scrollbar{
+    width: 3px;
+    height:3px;
+}
+::-webkit-scrollbar-track{
+    border: 1px solid #000;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: #191919
+}
