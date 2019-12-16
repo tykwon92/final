@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Jacob Kwon</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Learn Hangul">
-        <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <title>Jacob Kwon</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Learn Hangul">
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
 </head>
 
 <body>
     
-    <nav class="navigation" id="mainNav">
-        <a class="nav-link" href="#section-1"><div class="navicon"></div></a>
-        <a class="nav-link" href="#section-2"><div class="navicon"></div></a>
-        <a class="nav-link" href="#section-3"><div class="navicon"></div></a>
-        <a class="nav-link" href="#section-4"><div class="navicon"></div></a>
-        <a class="nav-link" href="#section-5"><div class="navicon"></div></a>
+    <!-- Nav Bar     -->
+    <nav class="navbar" id="mainNav">
+        <ul>
+            <li><a class="nav-link" href="#section-1"><div class="navicon"></div></a></li>                      
+            <li><a class="nav-link" href="#section-2"><div class="navicon"></div></a></li>
+            <li><a class="nav-link" href="#section-3"><div class="navicon"></div></a></li>
+            <li><a class="nav-link" href="#section-4"><div class="navicon"></div></a></li>
+            <li><a class="nav-link" href="#section-5"><div>
+                    <img alt = "" src = "http://www.myiconfinder.com/uploads/iconsets/256-256-5149d17faeeffb6ebf2ff0ea5a6a5aaa-message.png" height=20px width=20px>
+            </div></a></li>         </ul>
+        <button class="navbar-toggler">
+            <span></span>
+        </button>
     </nav>
-
+<article></article>
     <main>
         <!-- homepage -->
         <section class="page-section" id="section-1">
-            <div class="container1">
+            <div class="container2">
                 <!-- circles -->
                 <div class="circle1"></div>
                 <div class="circle2"></div>
@@ -49,141 +58,227 @@
         </section>
             <!-- 2nd page -->
         <section class="page-section" id="section-2">
-            <div class="title" id="title">             
-                <h1>KOREAN ALPHABET</h1>
+                
+            
+            <div class="progress">
+                <div class="progress-container">
+                    <h1>
+                        <label>H</label>
+                        <label>U</label>
+                        <label>N</label>
+                        <label>M</label>
+                        <label>I</label>
+                        <label>N</label>
+                        <label>J</label>
+                        <label>E</label>
+                        <label>O</label>    
+                        <label>N</label>    
+                        <label>G</label>  
+                        <label>'</label>  
+                        <label>E</label>    
+                        <label>M</label>    
+                    </h1>
+                </div>
             </div>
+            
+            
+            <div id="title">   
+                <div id="text">                 
+                    <h4>
+                        <span class="word wisteria">ALPHABET</span>
+                        <span class="word belize">한글</span>
+                        <span class="word pomegranate">HANGUL</span>
+                        <span class="word green">ㄱㄹㅁㅅㅇ</span>
+                        <span class="word midnight">KOREAN</span> 
+                        <span class="word pomegranate">ㅏㅓㅡㅗㅜ</span>
+                    </h4>
+                </div>
+            </div>            
         </section>
-
         <!-- 3rd page -->
+
+
         <section class="page-section" id="section-3">
-            <video class= "video1"  autoplay loop>
-                <source src="video/motion.webm" type="type/webm">
-                    Your browser does not support the video tag
-            </video>
+            <div class="hcontainer">
+                <div class="subtitle">
+                        <h3>History</h3>
+                </div>
+               
+                <div class="container1" class="wrapper">
+
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/old.jpeg" data-title=" 1." data-description="Before the creation of the new Korean alphabet, Koreans primarily used Classical Chinese alongside native phonetic writing systems">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/sejong.png" data-title="2." data-description="Sejong the Great was the fourth king of the Joseon Dynasty.">
+                        </div>
+                    </div>   
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/chosun.jpg" data-title="3." data-description="Sejong decided that the Korean people needed a new alphabet because the Korean language was fundamentally different from Chinese.">
+                        </div>
+                    </div>   
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/invention.jpg" data-title="4." data-description="The Hunminjeong'eum was published on October 9, 1446 and that day is celebrated as Korean Alphabet (Hangul) Day in South Korea.">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/hunmin.jpg" data-title="5." data-description="The Korean alphabet was originally called Hunminjeong'eum. This means that it was designed for commoners would be able to read and write.">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/mouth.jpg" data-title="6." data-description="The shape of consonants were designed after the shapes the mouth while the vowels were designed after the principles of yin and yang.">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/chosunelite.jpg" data-title="7." data-description="The Korean alphabet faced opposition in the 1440s by the literary elite.">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/imgfont.png" data-title="8." data-description="The Korean alphabet originally consisted of 28 letters with 17 consonant letters and 11 vowel letter.">
+                        </div>
+                    </div>
+                    <div class="box"> 
+                        <div class="item">
+                            <img src="img/usage.jpg" data-title="9." data-description="The Hunminjeong'eum was published on October 9, 1446 and that day is celebrated as Korean Alphabet (Hangul) Day in South Korea.">
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                            <div class="close">
+                                <img src="img/x.png" width=20px>
+                            </div>
+                        <div class="content">
+                            <h1></h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
         </section>
 
         <!-- 4th page -->
         <section class="page-section" id="section-4">
-            <div class="vcontainer">
-                <div class="subtitle">
-                        <h3>History of Hangul</h3>
-                </div>
-                <div class="vpage">
-                    <div class="vpg">
-                        <br>                                        
-                        <h2>1.</h2>
-                        <img src="img/old.jpeg" alt="before Hangul">  
-                        <div class="paragraph">
-                            <p>Before the creation of the new Korean alphabet, Koreans primarily used Classical Chinese alongside native phonetic writing systems</p>                               
-                        </div>
-                    </div>
-                    <div class="vpg">
-                        <br>
-                        <h2>2.</h2>
-                        <img src="img/invention.jpg" alt="firstprint">
-                        <div class="paragraph">
-                            <p>The Hunminjeong'eum was published on October 9, 1446 and that day is celebrated as Korean Alphabet (Hangul) Day in South Korea.</p>
-                        </div>                            
-                    </div>                       
-                    <div class="vpg">
-                        <br>
-                        <h2>3.</h2>
-                        <img src="img/chosunelite.jpg" alt="chosun elite">                            
-                        <div class="paragraph">                                
-                            <p>The Korean alphabet faced opposition in the 1440s by the literary elite.</p>
-                        </div>
-                    </div>
-                    <div class="vpg">
-                        <br>
-                        <h2>4.</h2>
-                        <img src="img/revise.jpg" alt="choosikyung">                            
-                        <div class="paragraph">                                
-                            <p>The Korean alphabet originally consisted of 28 letters with 17 consonant letters and 11 vowel letter. As four became obsolete, modern alphabet consists of a total of 24 letters with 14 consonant letters and 10 vowel letters.</p>
-                        </div>
-                    </div>
-                    <div class="vpg">
-                        <br>
-                        <h2>5.</h2>
-                        <img src="img/japanannex.jpeg" alt="japanese colony">                            
-                        <div class="paragraph">                                
-                            <p>After the Japanese annexation, which occurred in 1910, Japan changed Korea’s national language and alphabet to Japanese. Japan banned the Korean language from schools in 1938 as part of a policy of cultural assimilation, and all Korean-language publications were outlawed in 1941</p>
-                        </div>
-                    </div>                                                     
-                </div>
+           <div class="hcontainer">
+            <div class="subtitle">
+                    <h3>Form & Structure</h3>  
             </div>
+           <div class="hpage">
+            
+                <div class="pg">
+                        <h1 class="wow bounceInUp">1.</h1>
+                        <img class="wow bounceInDown" class="primg" src="img/hangul_pron1.png">  
+                        <p class="wow bounceInDown" class="paragraph1">There are 14 consonants in the Korean alphabet. The five basic Hangeul consonants are: ㄱ, ㄴ, ㅁ, ㅅ, and ㅇ. Other letters are made by adding an extra stroke or stacking onto these basic five letters.</p>  
+                </div>
+                <div class="pg">
+                        <h1 class="wow bounceInUp"> 2.</h1>                    
+                        <img class="wow bounceInDown" class="primg" src="img/hangul_pron3.png">  
+                        <p class="wow bounceInDown" class="paragraph1">Some consonants can be doubled. They make stronger sounds.</p>                  
+                   
+                </div>
+                <div class="pg">
+                            <h1 class="wow bounceInUp">3.</h1>
+                            <img class="wow bounceInDown" class="primg" src="img/hangul_pron2.png">  
+                            <p class="wow bounceInDown" class="paragraph1">The shapes of the vowels are based on three elements: man (a vertical line), earth (a horizontal line) and heaven (a dot). In modern Hangeul the heavenly dot has mutated into a short line.</p>                                          
+                      
+                </div>
+                <div class="pg">
+                            <h1  class="wow bounceInUp">4.</h1>
+                            <img class="wow bounceInDown" class="primg" src="img/hangul_compose.png">  
+                            <p class="wow bounceInDown" class="paragraph1">The consonants and vowels are stacked into little blocks for each syllable</h2>                  
+                    
+                    </div>                         
+                </div>      
+            </div>   
         </section>
+
 
         <!-- 5th page -->
-        <section class="page-section" id="section-5">
-            <div class="hcontainer">
-                <div class="subtitle">
-                    <h3>Story Behind Hangul</h3>
-                </div>
-                <div class="hpage">
-                    <div class="pg">
-                        <br>
-                        <h2>1.</h2>
-                        <img src="img/sejong.png" alt="Sejong the Great">  
-                        <div class="paragraph">
-                            <p>Hangul, the Korean alphabet was a project promoted by Sejong the Great, the fourth king of the Joseon Dynasty.</p>                               
-                        </div>
-                    </div>
-                    <div class="pg">
-                        <br>
-                        <h2>2.</h2>
-                        <img src="img/hunmin.png" alt="Hunminjeong'eum">
-                        <div class="paragraph">
-                            <p>The Korean alphabet was originally called Hunminjeong'eum. This means that it was designed for commoners would be able to read and write.</p>
-                        </div>                            
-                    </div>                       
-                    <div class="pg">
-                        <br>
-                        <h2>3.</h2>
-                        <img src="img/chosun.jpg" alt="Chosun">                            
-                        <div class="paragraph">                                
-                            <p>King Sejong decided that the Korean people needed a new alphabet because the Korean language was fundamentally different from Chinese.</p>
-                        </div>
-                    </div>
-                    <div class="pg">
-                        <br>
-                        <h2>4.</h2>
-                        <img src="img/hangul.png" alt="stroke">                            
-                        <div class="paragraph">                                
-                            <p>A Korean syllable is divided into three parts: initial consonant, peak vowel, and final consonant.</p>
-                        </div>
-                    </div>
-                    <div class="pg">
-                        <br>
-                        <h2>5.</h2>
-                        <img src="img/hangulshape.jpeg" alt="creation">                            
-                        <div class="paragraph">                                
-                            <p>The shape of consonants were designed after the shapes the mouth while the vowels were designed after the principles of yin and yang.</p>
-                        </div>
-                    </div>
-                    <div class="pg">
-                        <br>
-                        <h2>6.</h2>
-                        <img src="img/usage.jpg" alt="letter">                            
-                        <div class="paragraph">                                
-                            <p>consists of a total of 24 letters with 14 consonant letters and 10 vowel letters</p>
-                        </div>
-                    </div>
-                    <div class="pg">
-                        <br>
-                        <h2>7.</h2>
-                        <img src="img/sejong.png" alt="Sejong the Great">                            
-                        <div class="paragraph">                                
-                            <p>Korean Alphabet is the only alphabet that has written documents of the time of creation, purpose of usage, and how to use.</p>
-                        </div>
-                    </div>                                                          
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
 
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/app.js"></script>
+        <section class="page-section" id="section-5">
+            <div class="subtitle">
+                <h3>Contact Us</h3>
+            </div>
+
+            <div class = "frame">
+                <div id = "button_open_envelope">Email me</div>
+                    <div class = "message">
+                        <form method="post" action="contact.php">
+                            <input type="text" name="name" id="name" placeholder=" Name* " required>                   
+                            <input type="email" name="email" id="email" placeholder=" Email* " required pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$">                        
+                            <input type="text" name="phone" id="phone" placeholder=" Phone (optional)">                         
+                            <textarea name="message" id="messarea" placeholder=" Message* " required></textarea>                   
+                            <input type="text" name="address" id="address" style="display: none;">
+                            <input type="submit" value="Send" id="send">
+                        </form>
+                    </div>
+                    <div class = "bottom"></div>			
+                    <div class = "left"></div>
+                    <div class = "right"></div>
+                    <div class = "top"></div>
+        </section>
+                         
+                         
+
+    </main>
+
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+$(document).ready(function(){
+	$('.frame').click(function(){
+		$('.top').addClass('open');
+		$('.message').addClass('pull');
+	})
+});
+//popup
+
+$('.item').on('click', function(){
+  var title = $(this).find('img').data('title');
+  var description = $(this).find('img').data('description');
+
+  $('.section').find('h1').text(title);
+  $('.section').find('p').text(description);
+
+  $('.section').addClass('active');
+
+});
+
+$('.close').on('click', function(){
+  $('.section').removeClass('active');
+});
+
+
+// text 
+$(document).ready(function() {
+	var inputs = $(".progress-container").find($("label") );
+	
+	for(var i =0 ; i< inputs.length; i ++)
+	{ 
+	     var index = i +1;
+		 var time = ((inputs.length)-i ) * 20;
+		$(".progress-container label:nth-child("+ index+")").css( "-webkit-animation", "anim 3s "+time+"ms infinite ease-in-out" );
+		$(".progress-container label:nth-child("+index+")").css( "-animation", "anim 3s "+time+"ms infinite ease-in-out" );
+	}
+
+})
+
+</script>
+
 
 </body>
 </html>
